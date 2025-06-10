@@ -8,7 +8,7 @@ from langchain.agents import AgentExecutor, create_tool_calling_agent
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.tools import StructuredTool
 from pydantic.v1 import BaseModel, Field
-from backend.recommend import recommend_cards, compare_cards_by_name
+from recommend import recommend_cards, compare_cards_by_name
 
 # === Load .env ===
 load_dotenv()
