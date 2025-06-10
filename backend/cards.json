@@ -9,7 +9,7 @@
     "eligibility": "Income > Rs. 1 lakh/month",
     "perks": ["Lounge Access", "Dining Discounts", "Travel Insurance"],
     "affiliate_link": "https://dummy-hdfc-regalia.com/apply",
-    "image_url": "https://dummyimage.com/hdfc-regalia.jpg"
+    "image_url": "/Cards/RegaliaL.jpeg"
   },
   {
     "name": "SBI Card ELITE",
@@ -21,7 +21,7 @@
     "eligibility": "Income > Rs. 60,000/month",
     "perks": ["Lounge Access", "Movie Tickets", "Club Vistara Membership"],
     "affiliate_link": "https://dummy-sbi-elite.com/apply",
-    "image_url": "https://dummyimage.com/sbi-elite.jpg"
+    "image_url": "/Cards/All_Purpose.jpeg"
   },
   {
     "name": "ICICI Amazon Pay Credit Card",
@@ -33,7 +33,7 @@
     "eligibility": "Income > Rs. 25,000/month",
     "perks": ["Amazon Vouchers", "No Annual Fee"],
     "affiliate_link": "https://dummy-icici-amazon.com/apply",
-    "image_url": "https://dummyimage.com/icici-amazon.jpg"
+    "image_url": "/Cards/BIZGrowA.jpeg"
   },
   {
     "name": "Axis Bank Magnus Credit Card",
@@ -45,7 +45,7 @@
     "eligibility": "Income > Rs. 18 lakh/year",
     "perks": ["Unlimited Lounge Access", "Dining", "Travel"],
     "affiliate_link": "https://dummy-axis-magnus.com/apply",
-    "image_url": "https://dummyimage.com/axis-magnus.jpg"
+    "image_url": "/Cards/MagnusP.jpeg"
   },
   {
     "name": "American Express Platinum Travel Card",
@@ -57,7 +57,7 @@
     "eligibility": "Income > Rs. 6 lakh/year",
     "perks": ["Travel Vouchers", "Lounge Access"],
     "affiliate_link": "https://dummy-amex-platinum.com/apply",
-    "image_url": "https://dummyimage.com/amex-platinum.jpg"
+    "image_url": "/Cards/AmexP.jpeg"
   },
   {
     "name": "Citi PremierMiles Credit Card",
@@ -69,7 +69,7 @@
     "eligibility": "Income > Rs. 25,000/month",
     "perks": ["Airport Lounge Access", "Travel Insurance"],
     "affiliate_link": "https://dummy-citi-premiermiles.com/apply",
-    "image_url": "https://dummyimage.com/citi-premiermiles.jpg"
+    "image_url": "/Cards/Travel_Venice.jpeg"
   },
   {
     "name": "Standard Chartered Super Value Titanium Card",
@@ -81,7 +81,7 @@
     "eligibility": "Income > Rs. 6 lakh/year",
     "perks": ["Fuel Surcharge Waiver", "Utility Bill Cashback"],
     "affiliate_link": "https://dummy-sc-titanium.com/apply",
-    "image_url": "https://dummyimage.com/sc-titanium.jpg"
+    "image_url": "/Cards/Fuel_BlueCar.jpeg"
   },
   {
     "name": "YES FIRST Preferred Credit Card",
@@ -93,7 +93,7 @@
     "eligibility": "Income > Rs. 12 lakh/year",
     "perks": ["Lounge Access", "Golf Program"],
     "affiliate_link": "https://dummy-yes-preferred.com/apply",
-    "image_url": "https://dummyimage.com/yes-preferred.jpg"
+    "image_url": "/Cards/INFINIAP.jpeg"
   },
   {
     "name": "IndusInd Bank Platinum Aura Edge Card",
@@ -105,7 +105,7 @@
     "eligibility": "Income > Rs. 3 lakh/year",
     "perks": ["Dining Offers", "Movie Discounts"],
     "affiliate_link": "https://dummy-indusind-aura.com/apply",
-    "image_url": "https://dummyimage.com/indusind-aura.jpg"
+    "image_url": "/Cards/Home_Paisley.jpeg"
   },
   {
     "name": "Kotak Royale Signature Credit Card",
@@ -117,7 +117,7 @@
     "eligibility": "Income > Rs. 24,000/month",
     "perks": ["Lounge Access", "Movie Offers"],
     "affiliate_link": "https://dummy-kotak-royale.com/apply",
-    "image_url": "https://dummyimage.com/kotak-royale.jpg"
+    "image_url": "/Cards/HPF.jpeg"
   },
   {
     "name": "RBL Bank Platinum Maxima Card",
@@ -129,7 +129,7 @@
     "eligibility": "Income > Rs. 3 lakh/year",
     "perks": ["Movie Tickets", "Airport Lounge Access"],
     "affiliate_link": "https://dummy-rbl-maxima.com/apply",
-    "image_url": "https://dummyimage.com/rbl-maxima.jpg"
+    "image_url": "/Cards/JetT.png"
   },
   {
     "name": "HSBC Platinum Credit Card",
@@ -141,7 +141,7 @@
     "eligibility": "Income > Rs. 4 lakh/year",
     "perks": ["No Annual Fee", "Dining Offers"],
     "affiliate_link": "https://dummy-hsbc-platinum.com/apply",
-    "image_url": "https://dummyimage.com/hsbc-platinum.jpg"
+    "image_url": "/Cards/Grocery_Street.jpeg"
   },
   {
     "name": "HDFC Millennia Credit Card",
@@ -153,7 +153,7 @@
     "eligibility": "Income > Rs. 35,000/month",
     "perks": ["Cashback", "Dining Offers"],
     "affiliate_link": "https://dummy-hdfc-millennia.com/apply",
-    "image_url": "https://dummyimage.com/hdfc-millennia.jpg"
+    "image_url": "/Cards/MilenniaL.jpeg"
   },
   {
     "name": "SBI SimplyCLICK Credit Card",
@@ -165,7 +165,7 @@
     "eligibility": "Income > Rs. 20,000/month",
     "perks": ["Amazon Vouchers", "Online Shopping Offers"],
     "affiliate_link": "https://dummy-sbi-simplyclick.com/apply",
-    "image_url": "https://dummyimage.com/sbi-simplyclick.jpg"
+    "image_url": "/Cards/All_Purpose.jpeg"
   },
   {
     "name": "ICICI Coral Credit Card",
@@ -177,7 +177,7 @@
     "eligibility": "Income > Rs. 2 lakh/year",
     "perks": ["Movie Tickets", "Dining Discounts"],
     "affiliate_link": "https://dummy-icici-coral.com/apply",
-    "image_url": "https://dummyimage.com/icici-coral.jpg"
+    "image_url": "/Cards/DiningGold.jpeg"
   },
   {
     "name": "Axis Bank Neo Credit Card",
@@ -189,7 +189,7 @@
     "eligibility": "Income > Rs. 15,000/month",
     "perks": ["Movie Discounts", "Shopping Offers"],
     "affiliate_link": "https://dummy-axis-neo.com/apply",
-    "image_url": "https://dummyimage.com/axis-neo.jpg"
+    "image_url": "/Cards/All_Purpose.jpeg"
   },
   {
     "name": "American Express Membership Rewards Card",
@@ -201,7 +201,7 @@
     "eligibility": "Income > Rs. 6 lakh/year",
     "perks": ["Membership Rewards", "Dining Offers"],
     "affiliate_link": "https://dummy-amex-mr.com/apply",
-    "image_url": "https://dummyimage.com/amex-mr.jpg"
+    "image_url": "/Cards/AmexP.jpeg"
   },
   {
     "name": "YES Prosperity Edge Credit Card",
@@ -213,7 +213,7 @@
     "eligibility": "Income > Rs. 4 lakh/year",
     "perks": ["Lounge Access", "Dining Offers"],
     "affiliate_link": "https://dummy-yes-prosperity.com/apply",
-    "image_url": "https://dummyimage.com/yes-prosperity.jpg"
+    "image_url": "/Cards/INFINIAP.jpeg"
   },
   {
     "name": "IndusInd Bank Legend Credit Card",
@@ -225,7 +225,7 @@
     "eligibility": "Income > Rs. 18 lakh/year",
     "perks": ["Lounge Access", "Golf Program"],
     "affiliate_link": "https://dummy-indusind-legend.com/apply",
-    "image_url": "https://dummyimage.com/indusind-legend.jpg"
+    "image_url": "/Cards/Edition_Silver.jpeg"
   },
   {
     "name": "Kotak Essentia Platinum Credit Card",
@@ -237,7 +237,7 @@
     "eligibility": "Income > Rs. 4 lakh/year",
     "perks": ["Grocery Cashback", "Dining Offers"],
     "affiliate_link": "https://dummy-kotak-essentia.com/apply",
-    "image_url": "https://dummyimage.com/kotak-essentia.jpg"
+    "image_url": "/Cards/Grocery_Street.jpeg"
   },
   {
     "name": "RBL Shoprite Credit Card",
@@ -249,7 +249,7 @@
     "eligibility": "Income > Rs. 2 lakh/year",
     "perks": ["Grocery Cashback", "Movie Offers"],
     "affiliate_link": "https://dummy-rbl-shoprite.com/apply",
-    "image_url": "https://dummyimage.com/rbl-shoprite.jpg"
+    "image_url": "/Cards/Grocery_Street.jpeg"
   },
   {
     "name": "HSBC Smart Value Credit Card",
@@ -261,7 +261,7 @@
     "eligibility": "Income > Rs. 4 lakh/year",
     "perks": ["Movie Offers", "Dining Discounts"],
     "affiliate_link": "https://dummy-hsbc-smartvalue.com/apply",
-    "image_url": "https://dummyimage.com/hsbc-smartvalue.jpg"
+    "image_url": "/Cards/All_Purpose.jpeg"
   },
   {
     "name": "HDFC Diners Club Privilege Credit Card",
@@ -273,6 +273,6 @@
     "eligibility": "Income > Rs. 40,000/month",
     "perks": ["Lounge Access", "Dining Offers"],
     "affiliate_link": "https://dummy-hdfc-diners.com/apply",
-    "image_url": "https://dummyimage.com/hdfc-diners.jpg"
+    "image_url": "/Cards/DinersP.jpeg"
   }
 ]
