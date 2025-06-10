@@ -1,5 +1,7 @@
+const API_URL = "https://credit-card-chatbot-production.up.railway.app";
+
 export async function sendMessage(message) {
-  const res = await fetch("http://localhost:8000/chat", {
+  const res = await fetch(`${API_URL}/chat`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message }),
@@ -8,7 +10,7 @@ export async function sendMessage(message) {
 }
 
 export async function compareCards(card_names) {
-  const res = await fetch("http://localhost:8000/compare", {
+  const res = await fetch(`${API_URL}/compare`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ card_names }),
