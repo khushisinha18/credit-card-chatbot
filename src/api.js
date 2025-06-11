@@ -1,4 +1,4 @@
-const API_URL = "https://credit-card-chatbot-credit.up.railway.app";
+const API_URL = "https://faithful-gratitude-production-9fd1.up.railway.app";
 export async function sendMessage(message) {
   const res = await fetch(`${API_URL}/chat`, {
     method: "POST",
