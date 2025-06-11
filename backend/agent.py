@@ -120,10 +120,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "https://credit-card-chatbot-git-master-khushi-sinhas-projects.vercel.app"
-    ],
+    allow_origins=["*"],  # allow all origins (needed because each Vercel preview has a unique URL)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
