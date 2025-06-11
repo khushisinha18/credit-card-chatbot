@@ -9,9 +9,15 @@ from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.tools import StructuredTool
 from pydantic.v1 import BaseModel, Field
 from recommend import recommend_cards, compare_cards_by_name
+from typing import List
 
 # === Load .env ===
 load_dotenv()
+api_key = os.getenv("OPENAI_API_KEY")
+api_base = os.getenv("OPENAI_API_BASE")
+print("API KEY:", api_key)
+print("API BASE:", api_base)
+# === Load .env === 
 api_key = os.getenv("OPENAI_API_KEY")
 api_base = os.getenv("OPENAI_API_BASE")
 
@@ -34,6 +40,12 @@ class UserProfile(BaseModel):
     income: int = Field(description="Monthly income in INR")
     habits: list[str] = Field(description="Spending habits like fuel, travel, groceries")
     benefits: list[str] = Field(description="Preferred card benefits like cashback, lounge access, etc.")
+
+class CompareRequest(BaseModel):
+    card_names: List[str]
+
+class ChatRequest(BaseModel):
+    message: str
 
 # === Recommendation tool ===
 def recommend_tool_func(income: int, habits: list[str], benefits: list[str]) -> dict:
@@ -127,17 +139,15 @@ app.add_middleware(
 )
 
 @app.post("/compare")
-async def compare_cards(request: Request):
-    data = await request.json()
-    names = data.get("card_names", [])
+async def compare_cards(body: CompareRequest):
+    names = body.card_names
     if not names:
         return {"error": "No card names provided."}
     return {"cards": compare_cards_by_name(names)}
 
 @app.post("/chat")
-async def chat(request: Request):
-    data = await request.json()
-    user_input = data.get("message", "")
+async def chat(body: ChatRequest):
+    user_input = body.message
     # Reset memory if user says 'reset' or 'start over'
     if user_input.strip().lower() in ["reset", "start over", "restart", "clear"]:
         memory.clear()
