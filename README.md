@@ -1,8 +1,10 @@
 # 💳 FinMate – Credit-Card Recommendation Chatbot
 
-[Live Demo →](https://credit-card-chatbot-git-master-khushi-sinhas-projects.vercel.app)  
-[Backend API →](https://faithful-gratitude-production-9fd1.up.railway.app/docs)
+## 💬 Chatbot Demo
 
+Here's a quick look at how the credit card recommendation chatbot works:
+
+![Chatbot demo](docs/chatbot-demo.gif)
 <p align="center">
   <img src="docs/demo.gif" width="700" alt="FinMate demo">
 </p>
