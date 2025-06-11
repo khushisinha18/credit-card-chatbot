@@ -15,8 +15,8 @@ from typing import List
 load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 api_base = os.getenv("OPENAI_API_BASE")
-print("API KEY:", api_key)
-print("API BASE:", api_base)
+# print("API KEY:", api_key)
+# print("API BASE:", api_base)
 # === Load .env === 
 api_key = os.getenv("OPENAI_API_KEY")
 api_base = os.getenv("OPENAI_API_BASE")
