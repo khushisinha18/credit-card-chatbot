@@ -4,7 +4,7 @@
 
 Here's a quick look at how the credit card recommendation chatbot works:
 
-![Chatbot demo](docs/chatbot-demo.gif)
+![Chatbot demo](backend/chatbot-demo.gif)
 <p align="center">
   <img src="docs/demo.gif" width="700" alt="FinMate demo">
 </p>
