@@ -11,15 +11,14 @@ from pydantic.v1 import BaseModel, Field
 from recommend import recommend_cards, compare_cards_by_name
 from typing import List
 
-# === Load .env ===
-load_dotenv()
+# === Load .env (only for local dev, not needed on Railway) ===
+if os.getenv("RAILWAY_ENVIRONMENT") is None:
+    load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 api_base = os.getenv("OPENAI_API_BASE")
-# print("API KEY:", api_key)
-# print("API BASE:", api_base)
+print("[DEBUG] OPENAI_API_KEY loaded:", bool(api_key))
+print("[DEBUG] OPENAI_API_BASE loaded:", api_base)
 # === Load .env === 
-api_key = os.getenv("OPENAI_API_KEY")
-api_base = os.getenv("OPENAI_API_BASE")
 
 # === LLM Setup (OpenRouter) ===
 llm = ChatOpenAI(
