@@ -17,6 +17,26 @@ Built with **FastAPI + LangChain** on the backend and **React + Tailwind** on th
 
 ---
 
+## 🧠 Agent Flow
+
+```mermaid
+flowchart TD
+    A(User) -->|types message| B(React Frontend)
+    B -->|POST /chat| C(FastAPI endpoint)
+    C --> D(ConversationBufferMemory)
+    D --> E(LangChain Tool-Calling Agent)
+    E -->|needs more info?| B
+    E -->|ready| F(CreditCardRecommender tool)
+    F --> G(recommend_cards function)
+    G --> H(cards.json)
+    H --> G
+    F --> E
+    E --> C
+    C -->|JSON response| B
+    B -->|render cards + chat| A
+
+---
+
 ## 🌐 Quick Links
 | Resource | URL |
 |----------|-----|
