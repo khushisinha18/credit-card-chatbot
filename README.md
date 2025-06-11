@@ -6,7 +6,7 @@ Here's a quick look at how the credit card recommendation chatbot works:
 
 ![Chatbot demo](Screen Recording 2025-06-11 at 3.16.58 PM.gif)
 <p align="center">
-  <img src="docs/demo.gif" width="700" alt="FinMate demo">
+  <img src="Screen Recording 2025-06-11 at 3.16.58 PM.gif" width="700" alt="FinMate demo">
 </p>
 
 ---
