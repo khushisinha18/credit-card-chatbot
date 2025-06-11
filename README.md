@@ -1,10 +1,13 @@
 # 💳 FinMate – Credit-Card Recommendation Chatbot
 
-## 💬 Chatbot Demo
+## 🎥 Chatbot Demo Video
 
-Here's a quick look at how the credit card recommendation chatbot works:
+Check out a full walkthrough of the credit card recommendation chatbot:
 
-![Chatbot demo](Screen Recording 2025-06-11 at 3.16.58 PM.gif)
+▶️ [Watch the demo on Google Drive](https://drive.google.com/file/d/11j2EyJuwcLVynau3yyz0PjDiFC735baK/view?usp=sharing)
+
+![Chatbot GIF Preview](docs/chatbot-demo.gif)
+
 <p align="center">
   <img src="Screen Recording 2025-06-11 at 3.16.58 PM.gif" width="700" alt="FinMate demo">
 </p>
